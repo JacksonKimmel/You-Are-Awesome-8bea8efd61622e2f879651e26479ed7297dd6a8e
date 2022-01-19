@@ -32,11 +32,16 @@
                                     <action selector="messageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8kK-P4-eXd"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image=" " translatesAutoresizingMaskIntoConstraints="NO" id="VsK-D8-6jF">
+                                <rect key="frame" x="16" y="167" width="288" height="381"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="imageView" destination="VsK-D8-6jF" id="Kcz-v3-LlH"/>
                         <outlet property="messageLabel" destination="WG5-wx-9Yh" id="kiu-vy-ykR"/>
                     </connections>
                 </viewController>
@@ -46,6 +51,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name=" " width="128" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
